@@ -13,8 +13,16 @@ space = "Data Analytics"
 role = "post-secondary-education"
 
 [depends]
-required = []
-optional = []
+required = [
+  "python>=3.12",
+  "uv"
+]
+optional = [
+  "mkdocs",
+  "ruff",
+  "pyright",
+  "pytest"
+]
 
 [provides]
 artifacts = [
@@ -53,13 +61,4 @@ bib_hint = "case2026-datafun-01-foundations"
 identifier_map = "none"
 
 [meta]
-keywords = [
-    "education",
-    "python syntax",
-    "python packaging",
-    "project templates",
-    "professional python",
-    "data analytics fundamentals",
-    "uv",
-    "project templates",
-]
+# Keywords live only in CITATION.cff (canonical).
