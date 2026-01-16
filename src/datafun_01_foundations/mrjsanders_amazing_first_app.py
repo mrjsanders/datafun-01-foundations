@@ -1,6 +1,6 @@
-"""app_yourname.py - Project script.
+"""mrjsanders_amazing_first_app.py - Project script.
 
-Author: Your Name or Alias
+Author: Jacob
 Date: 2026-01
 
   Practice key Python skills related to:
@@ -17,13 +17,6 @@ Date: 2026-01
 OBS:
   This is your file to practice and customize.
   Find the TODO comments, and as you complete each task, remove the TODO note.
-
-TODO: Change the Author line of the docstring above to your name or alias.
-
-TODO: RENAME this file from app_yourname.py to something
-      that includes your name or alias, e.g., app_stellar_analytics.py.
-
-TODO: Update the opening line of the docstring above to match the new file name.
 
 TODO: Update the associated `uv run python` command in the README.md file.
 
